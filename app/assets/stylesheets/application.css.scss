@@ -17,6 +17,22 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+
+#notice-wrapper {
+	
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+	background: rgba(135, 216, 211, 0.085);
+	text-align: center;
+	margin: 0;
+	font-size: 1.25rem;
+	font-weight: 700;
+	color: black;
+	letter-spacing: 1px;
+		
+}
 #logo {
 	font-size: 26px;
 	font-weight: 700;
@@ -26,6 +42,10 @@
 	a {
 		color: #2F363E;
 	}
+}
+.navbar {
+	
+	min-height: 70px;
 }
 
 #main_content {
